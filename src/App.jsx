@@ -1,11 +1,12 @@
 
+import { ActorCard } from './components/ActorCard'
 import './App.css'
 
 function App() {
 
   return (
     <div className="App">
-      hola!
+      <ActorCard/>
     </div>
   )
 }
